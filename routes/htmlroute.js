@@ -1,5 +1,5 @@
 var router = require("express").Router();
-var PATH = require("path")
+var path = require("path")
 
 
 router.get("/", function(req,res){
