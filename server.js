@@ -12,6 +12,6 @@ var htmlroute = require("./routes/htmlroute")
 app.use(apiroute)
 app.use(htmlroute)
 
-app.listen(PORT, function(){
+app.listen(process.env.PORT|| 3000, function(){
     console.log("App running on port",PORT)
 })
