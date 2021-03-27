@@ -26,8 +26,12 @@ router.post("/api/notes", function(req,res){
 
 router.delete("/api/notes/:id", function(req,res){
     var tempData = []
-    tempData = db.filter(note => note.id !== req.params.id )
-    console.log("temp",tempData)
+    for(let i=0;i< db.length;i++){
+    if(db[i].id != req.params.id){
+        tempData.push(db[i])
+    }
+    }
+    console.log("temp",tempData,req.params.id)
     db = tempData
     fs.writeFileSync("./db/db.json",JSON.stringify(db),function(){
         if (err) throw err;
