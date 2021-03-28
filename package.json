@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/pgwdbri/NoteTaker.git"
   },
-  "keywords": [
-    "NodeJS"
-  ],
   "author": "Brianna Shade",
   "license": "MIT",
   "bugs": {
@@ -26,7 +23,7 @@
 
   },
   "description": "",
-  "node" : "14.16.0",
+  "node" : "14.16.0"
 
  
   
