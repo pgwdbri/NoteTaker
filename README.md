@@ -14,6 +14,12 @@ Link: https://note-taker-pgwdbri.herokuapp.com/
 (https://github.com/pgwdbri)
 https://github.com/pgwdbri/NoteTaker
 
+# Technologies Used:
+Express, Javascript, Heroku, HTML, CSS
+
+# License
+MIT
+
 # Installation
 npm i
 express .js
